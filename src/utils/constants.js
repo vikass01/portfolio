@@ -242,7 +242,7 @@ export const projectsData = [
     title: "Portfolio Website",
     image: "portfolio-website",
     link: null,
-    source: "https://github.com/vaheedsk36/portfolio-website-nextjs",
+    source: "https://vikaspanchal.vercel.app/",
   },
   {
     type: "WEB-APP",
