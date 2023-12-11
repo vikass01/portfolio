@@ -48,6 +48,8 @@ export default function Home() {
           top="45vh"
           zIndex={1}
         >
+          <br />
+          <br />
           <RevealWrapper className="load-hidden" delay={300}>
             <Image
               objectFit="shrink"
