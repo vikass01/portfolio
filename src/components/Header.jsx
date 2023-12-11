@@ -1,9 +1,10 @@
-import { Flex, HStack, chakra } from "@chakra-ui/react";
+import { Flex, HStack, chakra, Image } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/next-js";
 import React from "react";
 import MobileHeader from "./MobileHeader";
 import { links } from "../utils/constants";
 import { usePathname } from "next/navigation";
+import { RevealWrapper } from "next-reveal";
 
 export default function Header() {
   const pathname = usePathname();
@@ -45,6 +46,15 @@ export default function Header() {
         <HStack>
           <MobileHeader {...{ pathname }} />
         </HStack>
+        <RevealWrapper className="load-hidden">
+            <Image
+              objectFit="shrink"
+              src="/images/nextjs.png"
+              alt="profile-image"
+              width={["5rem"]}
+              height={["2rem"]}
+            />
+          </RevealWrapper>
       </Flex>
     </chakra.header>
   );
