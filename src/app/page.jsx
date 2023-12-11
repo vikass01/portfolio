@@ -90,7 +90,7 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Dharra
+                Panchal
               </Heading>
             </Flex>
           </RevealWrapper>

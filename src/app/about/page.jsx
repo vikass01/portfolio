@@ -43,7 +43,7 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
+                  I&apos;m <span className="name">Vikas Panchal</span>, a passionate
                   software developer. I specialize in{" "}
                   <span className="tech">Web Development</span>, crafting
                   seamless user experiences and robust backend solutions. With a
