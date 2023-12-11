@@ -48,7 +48,7 @@ const Blogs = () => {
   return (
     <>
       <Center my={5}>
-        {isLoading ? (
+        {/* {isLoading ? (
           <Box
             position="absolute"
             display="flex"
@@ -112,7 +112,7 @@ const Blogs = () => {
               <Box my={3}>{activeCardBrief}</Box>
             </ModalBody>
           </ModalContent>
-        </Modal>
+        </Modal> */}
       </Center>
     </>
   );
