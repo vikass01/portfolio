@@ -1,0 +1,41 @@
+{
+  "name": "portfolio-vikas-panchal",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Vikas Dharra",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/portal": "^2.1.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "eslint": "8.55.0",
+    "eslint-config-next": "14.0.4",
+    "framer-motion": "^10.16.16",
+    "mapbox-gl": "^3.0.1",
+    "next": "14.0.4",
+    "next-reveal": "^1.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.49.0",
+    "react-icons": "^4.12.0",
+    "react-loader-spinner": "^6.1.0",
+    "react-tsparticles": "^2.12.2",
+    "sharp": "^0.33.0",
+    "tsparticles": "^3.0.2",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
