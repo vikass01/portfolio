@@ -102,11 +102,6 @@ export default function Home() {
           <RevealWrapper className="load-hidden" delay={700}>
             <SocialIcons />
           </RevealWrapper>
-          <Heading
-                fontSize={["0.5rem", "0.7rem"]}
-              >
-                Next Js Project
-              </Heading>
         </Flex>
       </Center>
     </>
