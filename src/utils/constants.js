@@ -242,7 +242,7 @@ export const projectsData = [
     title: "Portfolio Website",
     image: "portfolio-website",
     link: null,
-    source: "https://vikaspanchal.vercel.app/",
+    source: "https://github.com/vikass01/portfolio",
   },
   {
     type: "WEB-APP",
