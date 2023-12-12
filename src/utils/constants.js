@@ -253,10 +253,10 @@ export const projectsData = [
   },
   {
     type: "WEB-APP",
-    title: "Landing Page",
+    title: "World Wide Visa",
     image: "landing-page",
-    link: "https://vaheedsk36.github.io/demo-frontend-bootcamp",
-    source: "https://github.com/vaheedsk36/demo-frontend-bootcamp",
+    link: "https://worldwide-visa.vercel.app/",
+    source: "https://github.com/vikass01/world_wide_visa",
   },
   {
     type: "WEB-APP",

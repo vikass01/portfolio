@@ -43,9 +43,6 @@ export default function Header() {
             </Link>
           ))}
         </HStack>
-        <HStack>
-          <MobileHeader {...{ pathname }} />
-        </HStack>
         <RevealWrapper className="load-hidden">
             <Image
               objectFit="shrink"
@@ -55,6 +52,10 @@ export default function Header() {
               height={["2rem"]}
             />
           </RevealWrapper>
+        <HStack>
+          <MobileHeader {...{ pathname }} />
+        </HStack>
+        
       </Flex>
     </chakra.header>
   );
