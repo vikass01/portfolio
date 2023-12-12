@@ -7,26 +7,26 @@ import React from "react";
 import { links } from "../utils/constants";
 
 export default function MobileHeader({ pathname }) {
-  // const { isOpen, onOpen, onClose } = useDisclosure();
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
-  // useEffect(() => {
-  //   onClose();
-  // }, [pathname]);
+  useEffect(() => {
+    onClose();
+  }, [pathname]);
 
   
 
   return (
     <Flex display={{ base: "flex", md: "none" }}>
       <Button ref={btnRef} 
-      // onClick={onOpen}
+      onClick={onOpen}
       >
         <IoMdMenu size="26px" />
       </Button>
 
       <DrawerComponent 
-      // isOpen={isOpen} 
-      // onClose={onClose} 
+      isOpen={isOpen} 
+      onClose={onClose} 
       finalFocusRef={btnRef}>
         <VStack alignItems="left">
           {links.map((link, index) => (
