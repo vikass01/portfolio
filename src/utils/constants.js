@@ -297,8 +297,8 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Text Utility App",
     image: "text-utility-app",
-    link: "https://vaheedsk36.github.io/text-utility-app/",
-    source: "https://github.com/vaheedsk36/text-utility-app",
+    link: "https://text-utils-beryl-six.vercel.app/",
+    source: "https://github.com/vikass01/text-utils",
   },
 ];
 
