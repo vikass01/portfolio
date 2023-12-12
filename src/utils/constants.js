@@ -248,8 +248,8 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Weather App",
     image: "weather-app",
-    link: "https://vaheedsk36.github.io/weather-app/",
-    source: "https://github.com/vaheedsk36/weather-app",
+    link: "https://weather-app-orpin-xi-63.vercel.app/",
+    source: "https://github.com/vikass01/Weather_App",
   },
   {
     type: "WEB-APP",
