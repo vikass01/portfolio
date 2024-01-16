@@ -20,6 +20,8 @@ import {
   TbBrandBootstrap,
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
+import { TbBrandReactNative } from "react-icons/tb";
+import { IoLogoElectron } from "react-icons/io5";
 import {
   SiPug,
   SiExpress,
@@ -100,12 +102,12 @@ export const skillsData = [
     icon: TbBrandJavascript,
   },
   {
-    name: "Jquery",
-    icon: BiLogoJquery,
+    name: "React Native",
+    icon: TbBrandReactNative,
   },
   {
-    name: "Typescript",
-    icon: TbBrandTypescript,
+    name: "Electron Js",
+    icon: IoLogoElectron,
   },
   {
     name: "SASS",
@@ -115,14 +117,14 @@ export const skillsData = [
     name: "Bootstrap",
     icon: TbBrandBootstrap,
   },
-  {
-    name: "C/C++",
-    icon: TbBrandCpp,
-  },
-  {
-    name: "Python",
-    icon: FaPython,
-  },
+  // {
+  //   name: "C/C++",
+  //   icon: TbBrandCpp,
+  // },
+  // {
+  //   name: "Python",
+  //   icon: FaPython,
+  // },
   {
     name: "ReactJS",
     icon: FaReact,
@@ -167,18 +169,18 @@ export const skillsData = [
     name: "Github",
     icon: FaGithub,
   },
-  {
-    name: "ChatGPT",
-    icon: GiArtificialIntelligence,
-  },
+  // {
+  //   name: "ChatGPT",
+  //   icon: GiArtificialIntelligence,
+  // },
   {
     name: "Bash",
     icon: SiGnubash,
   },
-  {
-    name: "Markdown",
-    icon: BsMarkdown,
-  },
+  // {
+  //   name: "Markdown",
+  //   icon: BsMarkdown,
+  // },
 ];
 
 export const workData = [
@@ -234,8 +236,8 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Movie Magnet",
     image: "movie-magnet",
-    link: "https://movie-magnet-smoky.vercel.app/",
-    source: "https://github.com/vaheedsk36/movie-magnet",
+    link: "",
+    source: "",
   },
   {
     type: "WEB-APP",
@@ -262,28 +264,28 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Guess Game",
     image: "guess-game",
-    link: "https://vaheedsk36.github.io/guess-my-number",
-    source: "https://github.com/vaheedsk36/guess-my-number",
+    link: "",
+    source: "",
   },
   {
     type: "WEB-APP",
     title: "Notes App",
     image: "react-notes-app",
-    link: "https://vaheedsk36.github.io/react-notes-app/",
-    source: "https://github.com/vaheedsk36/react-notes-app",
+    link: "",
+    source: "",
   },
   {
     type: "WEB-APP",
     title: "Dice Multiplayer",
     image: "dice-multiplayer",
-    link: "https://vaheedsk36.github.io/dice-multiplayer",
-    source: "https://github.com/vaheedsk36/dice-multiplayer",
+    link: "",
+    source: "",
   },
   {
     type: "PROJECT",
     title: "Snake Game",
     image: "snake-game",
-    link: "https://vaheedsk36.github.io/Snake-game",
+    link: "",
     source: "",
   },
   {
@@ -291,7 +293,7 @@ export const projectsData = [
     title: "Delta Assistant",
     image: "delta-assistant",
     link: "",
-    source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
+    source: "",
   },
   {
     type: "WEB-APP",
