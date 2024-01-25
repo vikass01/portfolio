@@ -262,10 +262,10 @@ export const projectsData = [
   },
   {
     type: "WEB-APP",
-    title: "Guess Game",
+    title: "Mbbs Study Overseas",
     image: "guess-game",
-    link: "",
-    source: "",
+    link: "https://mbbs-study-overseas.vercel.app/home",
+    source: "https://github.com/vikass01/mbbs-study-overseas",
   },
   {
     type: "WEB-APP",
