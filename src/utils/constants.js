@@ -236,8 +236,8 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Movie Magnet",
     image: "movie-magnet",
-    link: "",
-    source: "",
+    link: "https://movie-magnet-jade.vercel.app/",
+    source: "https://github.com/vikass01/Movie-Magnet",
   },
   {
     type: "WEB-APP",
@@ -264,7 +264,7 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Mbbs Study Overseas",
     image: "guess-game",
-    link: "https://mbbs-study-overseas.vercel.app/home",
+    link: "https://mbbsstudyoverseas.com/",
     source: "https://github.com/vikass01/mbbs-study-overseas",
   },
   {
