@@ -45,7 +45,7 @@ const Resume = () => {
                 padding: 0,
                 margin: 0,
               }}
-              src="https://publuu.com/flip-book/332867/765995"
+              src="https://coral-kara-lynn-65.tiiny.site/"
               allowFullScreen
             ></iframe>
           </div>
