@@ -37,8 +37,8 @@ const Resume = () => {
               loading="lazy"
               style={{
                 position: "absolute",
-                width: "100%",
-                height: "100%",
+                width:"500",
+                height:"500",
                 top: 0,
                 left: 0,
                 border: "none",
