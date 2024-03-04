@@ -45,7 +45,7 @@ const Resume = () => {
                 padding: 0,
                 margin: 0,
               }}
-              src="https://coral-kara-lynn-65.tiiny.site/"
+              src="https://ivory-deni-30.tiiny.site"
               allowFullScreen
             ></iframe>
           </div>
