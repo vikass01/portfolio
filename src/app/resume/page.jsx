@@ -48,7 +48,7 @@ const Resume = () => {
       <button onClick={generatePdf} style={{ cursor: 'pointer', padding: '10px 20px', backgroundColor: '#1a8ea1', color: '#fff', border: 'none', borderRadius: '5px', marginBottom: '20px', alignItems: 'flex-end' }}>Print</button>
       <div ref={contentRef} style={{padding: '50px', }} >
         {/* Sidebar */}
-        <div style={{ width: '100%', maxWidth: '33%', float: 'left', paddingRight: '20px' }}>
+        <div style={{ width: '100%', maxWidth: '40%', float: 'left', paddingRight: '20px' }}>
           <div style={{ textAlign: 'center' }}>
             <img
               src='/images/profile_photo.jpeg'
@@ -142,7 +142,7 @@ const Resume = () => {
         </div>
 
         {/* Main Content */}
-        <div style={{ padding: '20px', width: '100%', maxWidth: '66%', float: 'right' }}>
+        <div style={{ padding: '20px', width: '100%', maxWidth: '60%', float: 'right' }}>
           <h1 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1a8ea1', marginBottom: '10px' }}>Vikas Panchal</h1>
           <hr style={{ marginBottom: '20px', borderColor: '#1a8ea1' }} />
           <div style={{ marginTop: '20px', marginBottom: '20px' }}>
