@@ -146,7 +146,7 @@ const Resume = () => {
           <h1 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1a8ea1', marginBottom: '10px' }}>Vikas Panchal</h1>
           <hr style={{ marginBottom: '20px', borderColor: '#1a8ea1' }} />
           <div style={{ marginTop: '20px', marginBottom: '20px' }}>
-            <h2 className='txt1' style={{ fontWeight: 'bold' }}>Summary</h2>
+            <h2 style={{ fontWeight: 'bold', color: '#1a8ea1', }}>SUMMARY</h2>
             <p className='txt1' style={{ fontSize: '14px', lineHeight: '1.5' }}>
               Software Developer with extensive experience at Routa Digital and OYO Corporate Office, focusing on web and mobile application development. Proficient in React and Node.js, delivering optimized user experiences and efficient project workflows. Committed to collaboration and innovation, consistently producing high-quality applications that contribute to organizational success.
             </p>
