@@ -1,5 +1,5 @@
 "use client";
-//  import "./resume.css";
+import "./resume.css";
 // import photo from '../media/profile_photo.jpeg'
 import React, { useRef } from 'react';
 import jsPDF from 'jspdf';
@@ -56,16 +56,16 @@ const Resume = () => {
               style={{ width: '150px', height: '150px', borderRadius: '50%', marginBottom: '20px',margin: '0 auto 20px', }}
             />
             <h2 style={{ fontSize: '20px', fontWeight: 'bold' }}>Vikas Panchal</h2>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-              <p> 📍 Greater Noida, U.P- 201306</p>
-              <p>📞 91.7838955179</p>
-              <p>📧 eng.vikaspanchal91@gmail</p>
-              <p>🌐 vikaspanchal.vercel.app</p>
+            <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+              <p className='txt1'> 📍 Greater Noida, U.P- 201306</p>
+              <p className='txt1'>📞 91.7838955179</p>
+              <p className='txt1'>📧 eng.vikaspanchal91@gmail</p>
+              <p className='txt1'>🌐 vikaspanchal.vercel.app</p>
             </div>
           </div>
 
-          <div style={{ marginTop: '20px' }}>
-            <h2 style={{ fontWeight: 'bold' }}>Skills</h2>
+          <div  style={{ marginTop: '20px' }}>
+            <h2 className='txt1' style={{ fontWeight: 'bold' }}>Skills</h2>
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
               {[
                 "Web development",
@@ -83,55 +83,55 @@ const Resume = () => {
                 "Website builders",
                 "Wix and AppyBuilder",
               ].map((skill, idx) => (
-                <li key={idx}>&#x2022;{` ${skill}`}</li>
+                <li className='txt1' key={idx}>&#x2022;{` ${skill}`}</li>
               ))}
             </ul>
           </div>
 
           <div style={{ marginTop: '20px' }}>
-            <h2 style={{ fontWeight: 'bold', textTransform: 'uppercase', fontSize: '14px', marginBottom: '10px' }}>Computer Proficiency</h2>
+            <h2 className='txt1' style={{ fontWeight: 'bold', textTransform: 'uppercase', fontSize: '14px', marginBottom: '10px' }}>Computer Proficiency</h2>
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', fontSize: '14px' }}>
-              <li>&#x2022; Windows</li>
-              <li>&#x2022; Linux</li>
-              <li>&#x2022; PhotoShop</li>
-              <li>&#x2022; PageMaker</li>
-              <li>&#x2022; CorelDRAW</li>
-              <li>&#x2022; MS Office</li>
-              <li>&#x2022; Hardware</li>
-              <li>&#x2022; Typing</li>
+              <li className='txt1'>&#x2022; Windows</li>
+              <li className='txt1'>&#x2022; Linux</li>
+              <li className='txt1'>&#x2022; PhotoShop</li>
+              <li className='txt1'>&#x2022; PageMaker</li>
+              <li className='txt1'>&#x2022; CorelDRAW</li>
+              <li className='txt1'>&#x2022; MS Office</li>
+              <li className='txt1'>&#x2022; Hardware</li>
+              <li className='txt1'>&#x2022; Typing</li>
             </ul>
           </div>
 
           <div style={{ marginTop: '20px' }}>
-            <h2 style={{ fontWeight: 'bold' }}>Languages</h2>
+            <h2 className='txt1' style={{ fontWeight: 'bold' }}>Languages</h2>
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-              <li>&#x2022; English</li>
-              <li>&#x2022; Hindi</li>
-              <li>&#x2022; Punjabi</li>
+              <li className='txt1'>&#x2022; English</li>
+              <li className='txt1'>&#x2022; Hindi</li>
+              <li className='txt1'>&#x2022; Punjabi</li>
             </ul>
           </div>
 
           <div style={{ marginTop: '20px' }}>
-            <h2 style={{ fontWeight: 'bold' }}>Personal Info</h2>
+            <h2 className='txt1' style={{ fontWeight: 'bold' }}>Personal Info</h2>
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-              <li>&#x2022; Date of Birth: 01/10/91</li>
-              <li>&#x2022; Nationality: Indian</li>
-              <li>&#x2022; Marital Status: Married</li>
+              <li className='txt1'>&#x2022; Date of Birth: 01/10/91</li>
+              <li className='txt1'>&#x2022; Nationality: Indian</li>
+              <li className='txt1'>&#x2022; Marital Status: Married</li>
             </ul>
           </div>
 
           <div style={{ marginTop: '20px' }}>
-            <h2 style={{ fontWeight: 'bold' }}>Hobbies and Interests</h2>
+            <h2 className='txt1' style={{ fontWeight: 'bold' }}>Hobbies and Interests</h2>
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-              <li>&#x2022; Reading Books</li>
-              <li>&#x2022; Photography</li>
-              <li>&#x2022; Travelling</li>
+              <li className='txt1'>&#x2022; Reading Books</li>
+              <li className='txt1'>&#x2022; Photography</li>
+              <li className='txt1'>&#x2022; Travelling</li>
             </ul>
           </div>
 
           <div style={{ marginTop: '20px' }}>
-            <h2 style={{ fontWeight: 'bold', textTransform: 'uppercase', fontSize: '14px', marginBottom: '10px' }}>Address</h2>
-            <p style={{ fontSize: '14px' }}>
+            <h2 className='txt1' style={{ fontWeight: 'bold', textTransform: 'uppercase', fontSize: '14px', marginBottom: '10px' }}>Address</h2>
+            <p className='txt1' style={{ fontSize: '14px' }}>
               Flat No. 101, Tower E-5,<br />
               Supertech Eco Village 1,<br />
               Bisrakh Jalalpur,<br />
@@ -146,8 +146,8 @@ const Resume = () => {
           <h1 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1a8ea1', marginBottom: '10px' }}>Vikas Panchal</h1>
           <hr style={{ marginBottom: '20px', borderColor: '#1a8ea1' }} />
           <div style={{ marginTop: '20px', marginBottom: '20px' }}>
-            <h2 style={{ fontWeight: 'bold' }}>Summary</h2>
-            <p style={{ fontSize: '14px', lineHeight: '1.5' }}>
+            <h2 className='txt1' style={{ fontWeight: 'bold' }}>Summary</h2>
+            <p className='txt1' style={{ fontSize: '14px', lineHeight: '1.5' }}>
               Software Developer with extensive experience at Routa Digital and OYO Corporate Office, focusing on web and mobile application development. Proficient in React and Node.js, delivering optimized user experiences and efficient project workflows. Committed to collaboration and innovation, consistently producing high-quality applications that contribute to organizational success.
             </p>
           </div>
@@ -169,9 +169,9 @@ const Resume = () => {
               company="Onkar Pvt. Ltd., Gurgaon"
             >
               <ul style={{ listStyleType: 'disc', paddingLeft: '20px', fontSize: '14px', marginTop: '5px', lineHeight: '1.5' }}>
-                <li>Developed REST APIs for mobile applications to enhance functionality and performance.</li>
-                <li>Debugged code to identify and resolve errors efficiently.</li>
-                <li>Designed frontend interfaces using React for improved user experience.</li>
+                <li className='txt1'>Developed REST APIs for mobile applications to enhance functionality and performance.</li>
+                <li className='txt1'>Debugged code to identify and resolve errors efficiently.</li>
+                <li className='txt1'>Designed frontend interfaces using React for improved user experience.</li>
               </ul>
             </ExperienceItem>
           </Section>
@@ -196,90 +196,90 @@ const Resume = () => {
 
           <Section title="Certifications">
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', fontSize: '14px', lineHeight: '1.5' }}>
-              <li>Full Stack Data Science And AI, AlmaBetter, 2023</li>
-              <li>Microsoft 365, Linkedin Learning, 2023</li>
-              <li>Certified Security Expert, Innobuzz, 2014</li>
-              <li>JavaScript Certificate, Code Academy</li>
-              <li>Ethical Hacking Hands-on Training, Udemy</li>
+              <li className='txt1'>Full Stack Data Science And AI, AlmaBetter, 2023</li>
+              <li className='txt1'>Microsoft 365, Linkedin Learning, 2023</li>
+              <li className='txt1'>Certified Security Expert, Innobuzz, 2014</li>
+              <li className='txt1'>JavaScript Certificate, Code Academy</li>
+              <li className='txt1'>Ethical Hacking Hands-on Training, Udemy</li>
             </ul>
           </Section>
 
           <Section title="Projects">
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', fontSize: '14px', lineHeight: '1.5' }}>
-              <li>
-                <strong>HRMS (Currently Working)</strong> – An <strong>HR management system</strong> for client <strong>V2 Retails, Gurgaon</strong>, focused on <strong>attendance tracking</strong>, <strong>payroll processing</strong>, and other HR functions. Built to streamline HR operations in real-time.
+              <li className='txt1'>
+                <strong className='txt1'>HRMS (Currently Working)</strong> – An <strong className='txt1'>HR management system</strong> for client <strong className='txt1'>V2 Retails, Gurgaon</strong>, focused on <strong className='txt1'>attendance tracking</strong>, <strong className='txt1'>payroll processing</strong>, and other HR functions. Built to streamline HR operations in real-time.
+              </li >
+              <li className='txt1'>
+                <strong className='txt1'>Volvo Connected Architecture</strong> – An enterprise internal platform for <strong className='txt1'>application integration</strong> and <strong className='txt1'>creation</strong> within the Volvo ecosystem. Designed to manage connected services, streamline workflows, and support internal business applications.
               </li>
-              <li>
-                <strong>Volvo Connected Architecture</strong> – An enterprise internal platform for <strong>application integration</strong> and <strong>creation</strong> within the Volvo ecosystem. Designed to manage connected services, streamline workflows, and support internal business applications.
+              <li className='txt1'>
+                <strong className='txt1'>Movie Magnet</strong> – A Next.js app to explore movies and web shows using the TMDB API.
               </li>
-              <li>
-                <strong>Movie Magnet</strong> – A Next.js app to explore movies and web shows using the TMDB API.
+              <li className='txt1'>
+                <strong className='txt1'>Weather App</strong> – A React app showing real-time weather data and forecasts using Weather API.
               </li>
-              <li>
-                <strong>Weather App</strong> – A React app showing real-time weather data and forecasts using Weather API.
+              <li className='txt1'>
+                <strong className='txt1'>Text Utility (TextUtils)</strong> – A React-based text tool for case conversion and text operations.
               </li>
-              <li>
-                <strong>Text Utility (TextUtils)</strong> – A React-based text tool for case conversion and text operations.
+              <li className='txt1'>
+                <strong className='txt1'>MBBS Study Overseas</strong> – A fully-featured website for students to explore MBBS programs abroad.
               </li>
-              <li>
-                <strong>MBBS Study Overseas</strong> – A fully-featured website for students to explore MBBS programs abroad.
+              <li className='txt1'>
+                <strong className='txt1'>Task Tracker</strong> – A React and Firebase-based task management app for personal and team productivity with CRUD features and notifications.
               </li>
-              <li>
-                <strong>Task Tracker</strong> – A React and Firebase-based task management app for personal and team productivity with CRUD features and notifications.
+              <li className='txt1'>
+                <strong className='txt1'>BlogSphere</strong> – A full-stack blogging platform built using Node.js, Express, and MongoDB, featuring markdown support, authentication, and a WYSIWYG editor.
               </li>
-              <li>
-                <strong>BlogSphere</strong> – A full-stack blogging platform built using Node.js, Express, and MongoDB, featuring markdown support, authentication, and a WYSIWYG editor.
+              <li className='txt1'>
+                <strong className='txt1'>Portfolio Website</strong> – A personal portfolio built using Next.js and Tailwind CSS, showcasing projects, blogs, and contact integration.
               </li>
-              <li>
-                <strong>Portfolio Website</strong> – A personal portfolio built using Next.js and Tailwind CSS, showcasing projects, blogs, and contact integration.
+              <li className='txt1'>
+                <strong className='txt1'>Expense Tracker</strong> – A mobile-responsive web app to log and visualize personal expenses with charting using Chart.js.
+              </li >
+              <li className='txt1'>
+                <strong className='txt1'>eCommerce Admin Dashboard</strong> – A React.js admin dashboard with data visualization, inventory management, and order tracking.
               </li>
-              <li>
-                <strong>Expense Tracker</strong> – A mobile-responsive web app to log and visualize personal expenses with charting using Chart.js.
+              <li className='txt1'>
+                <strong className='txt1'>ChatApp</strong> – A real-time chat application using Socket.io, Node.js, and React for instant messaging and room creation.
               </li>
-              <li>
-                <strong>eCommerce Admin Dashboard</strong> – A React.js admin dashboard with data visualization, inventory management, and order tracking.
+              <li className='txt1'>
+                <strong className='txt1'>Quizify</strong> – An interactive quiz application built with React and Firebase, supporting live scoring and timed quizzes.
               </li>
-              <li>
-                <strong>ChatApp</strong> – A real-time chat application using Socket.io, Node.js, and React for instant messaging and room creation.
+              <li className='txt1'>
+                <strong className='txt1'>Landing Page Generator</strong> – A dynamic tool to generate responsive landing pages using form inputs, built with React and Tailwind CSS.
               </li>
-              <li>
-                <strong>Quizify</strong> – An interactive quiz application built with React and Firebase, supporting live scoring and timed quizzes.
+              <li className='txt1'> 
+                <strong className='txt1'>CryptoTracker</strong> – A crypto price monitoring dashboard using CoinGecko API with real-time updates and currency filter support.
               </li>
-              <li>
-                <strong>Landing Page Generator</strong> – A dynamic tool to generate responsive landing pages using form inputs, built with React and Tailwind CSS.
+              <li className='txt1'>
+                <strong className='txt1'>Fitness Club Website</strong> – A promotional site for a fitness club, built using HTML, CSS, and JavaScript with an integrated contact form.
               </li>
-              <li>
-                <strong>CryptoTracker</strong> – A crypto price monitoring dashboard using CoinGecko API with real-time updates and currency filter support.
+              <li className='txt1'>
+                <strong className='txt1'>InvoiceXpress</strong> – A professional invoicing system with client management and PDF generation using React and Node.js.
               </li>
-              <li>
-                <strong>Fitness Club Website</strong> – A promotional site for a fitness club, built using HTML, CSS, and JavaScript with an integrated contact form.
+              <li className='txt1'>
+                <strong className='txt1'>StudyBuddy</strong> – A collaborative study platform where students can share notes, quizzes, and schedule sessions. Built using MERN stack.
               </li>
-              <li>
-                <strong>InvoiceXpress</strong> – A professional invoicing system with client management and PDF generation using React and Node.js.
+              <li className='txt1'>
+                <strong className='txt1'>DevFinder</strong> – A GitHub user search tool using the GitHub API with dark mode support, built in React.
               </li>
-              <li>
-                <strong>StudyBuddy</strong> – A collaborative study platform where students can share notes, quizzes, and schedule sessions. Built using MERN stack.
+              <li className='txt1'>
+                <strong className='txt1'>Pet Adoption Portal</strong> – A full-stack website to list and adopt pets from shelters, built with Django and React.
               </li>
-              <li>
-                <strong>DevFinder</strong> – A GitHub user search tool using the GitHub API with dark mode support, built in React.
+              <li className='txt1'>
+                <strong className='txt1'>Online Code Editor</strong> – A browser-based code editor with live preview for HTML, CSS, and JS, built using React and Web Workers.
               </li>
-              <li>
-                <strong>Pet Adoption Portal</strong> – A full-stack website to list and adopt pets from shelters, built with Django and React.
+              <li className='txt1'>
+                <strong className='txt1'>AI Resume Builder</strong> – A tool to generate professional resumes using AI prompts, with export options and templates.
               </li>
-              <li>
-                <strong>Online Code Editor</strong> – A browser-based code editor with live preview for HTML, CSS, and JS, built using React and Web Workers.
+              <li className='txt1'>
+                <strong className='txt1'>EventEase</strong> – An event scheduling and registration app built using Firebase and React with calendar sync support.
               </li>
-              <li>
-                <strong>AI Resume Builder</strong> – A tool to generate professional resumes using AI prompts, with export options and templates.
+              <li className='txt1'>
+                <strong className='txt1'>FoodieFinder</strong> – A restaurant and recipe discovery app using Spoonacular API, with filters and bookmarking.
               </li>
-              <li>
-                <strong>EventEase</strong> – An event scheduling and registration app built using Firebase and React with calendar sync support.
-              </li>
-              <li>
-                <strong>FoodieFinder</strong> – A restaurant and recipe discovery app using Spoonacular API, with filters and bookmarking.
-              </li>
-              <li>
-                <strong>SecureVault</strong> – A password manager with encryption, React frontend, and secure localStorage handling.
+              <li className='txt1'>
+                <strong className='txt1'>SecureVault</strong> – A password manager with encryption, React frontend, and secure localStorage handling.
               </li>
             </ul>
           </Section>
@@ -298,10 +298,10 @@ const Section = ({ title, children }) => (
 );
 
 const ExperienceItem = ({ date, role, company, children }) => (
-  <div style={{ marginBottom: '10px', fontSize: '14px', lineHeight: '1.5' }}>
-    <strong>{date}</strong>
-    <p>
-      &#8226; {role} — <span style={{ fontStyle: 'italic' }}>{company}</span>
+  <div className='txt1' style={{ marginBottom: '10px', fontSize: '14px', lineHeight: '1.5' }}>
+    <strong className='txt1'>{date}</strong>
+    <p className='txt1'>
+      &#8226; {role} — <span className='txt1' style={{ fontStyle: 'italic' }}>{company}</span>
     </p>
     {children}
   </div>
