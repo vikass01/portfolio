@@ -55,7 +55,7 @@ const Resume = () => {
               alt="Vikas Panchal"
               style={{ width: '150px', height: '150px', borderRadius: '50%', marginBottom: '20px',margin: '0 auto 20px', }}
             />
-            <h2 style={{ fontSize: '20px', fontWeight: 'bold' }}>Vikas Panchal</h2>
+            <h2 className='txt1' style={{ fontSize: '20px', fontWeight: 'bold' }}>Vikas Panchal</h2>
             <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
               <p className='txt1'> 📍 Greater Noida, U.P- 201306</p>
               <p className='txt1'>📞 91.7838955179</p>
