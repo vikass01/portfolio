@@ -33,11 +33,29 @@ h1 {
 
 h2, h3 {
   /* color: #1a8ea1;  */
-  border-bottom: 2px solid #1a8ea1; /* Underline for section titles */
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-  font-weight: bold; /* Bold section titles */
+  /* border-bottom: 2px solid #1a8ea1;  */
+  /* padding-bottom: 5px;
+  margin-bottom: 15px; */
+  font-weight: bold; 
 }
+
+/* ColoredDividerExample.css */
+
+.colored-divider {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, #1a8ea1, #0ff);
+  border-radius: 2px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+/* Optional container styling */
+.divider-container {
+  text-align: center;
+  padding: 20px;
+}
+
 
 ul {
   list-style-type: disc;
