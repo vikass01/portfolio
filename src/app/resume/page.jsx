@@ -242,17 +242,9 @@ const Resume = () => {
                 "Web development",
                 "HTML and CSS",
                 "JavaScript frameworks",
-                "React and Next.js",
+                "React",
                 "Node.js and Express.js",
-                ". NET MVC",
-                "Mobile app develop",
-                "React Native",
-                "SQL, PostgreSQL",
-                "MongoDB",
-                "UI frameworks",
                 "Bootstrap and Tailwind",
-                "Website builders",
-                "Wix and AppyBuilder",
               ].map((skill, idx) => (
                 <li className='txt1' key={idx}>{`${skill}`}</li>
               ))}
@@ -414,7 +406,7 @@ const Resume = () => {
               <li className='txt1'>
                 <strong className='txt1'>Movie Magnet</strong> – A Next.js app to explore movies and web shows using the TMDB API.
               </li>
-              <li className='txt1'>
+              {/* <li className='txt1'>
                 <strong className='txt1'>Weather App</strong> – A React app showing real-time weather data and forecasts using Weather API.
               </li>
               <li className='txt1'>
@@ -422,7 +414,7 @@ const Resume = () => {
               </li>
               <li className='txt1'>
                 <strong className='txt1'>MBBS Study Overseas</strong> – A fully-featured website for students to explore MBBS programs abroad.
-              </li>
+              </li> */}
               <li className='txt1'>
                 <strong className='txt1'>Task Tracker</strong> – A React and Firebase-based task management app for personal and team productivity with CRUD features and notifications.
               </li>
