@@ -30,7 +30,7 @@ const Page = () => {
             >
               <Image
                 objectFit="shrink"
-                src="/images/profile.png"
+                src="/images/profile_photo.jpeg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
                 height={["20rem", "30rem", "20rem"]}
