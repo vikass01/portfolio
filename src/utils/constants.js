@@ -313,7 +313,7 @@ export const projectsData = [
     type: "WEB-APP",
     title: "MBBS Study Overseas",
     image: "mbbs-study-overseas",
-    link: "https://mbbsstudyoverseas.com/",
+    link: "https://mbbs-study-overseas-git-master-vikas-projects-4c046954.vercel.app/",
     source: "https://github.com/vikass01/mbbs-study-overseas",
   },
   {
