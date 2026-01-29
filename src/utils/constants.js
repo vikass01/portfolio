@@ -291,7 +291,7 @@ export const projectsData = [
   {
     type: "WEB-APP",
     title: "iGlobe Trading UI",
-    image: "iglobe-trading",
+    image: "iglobe",
     link: "https://www.iglobetrading.com/",
     source: "https://github.com/vikass01/initial-ink",
   },
