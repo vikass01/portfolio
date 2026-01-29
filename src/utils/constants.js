@@ -185,51 +185,51 @@ export const skillsData = [
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    company: "Routa Digital Pvt. Ltd.",
+    designation: "Software Developer",
+    duration: "March 2024 - Sept 2025",
+    companyImg: "https://media.licdn.com/dms/image/v2/C4D0BAQF1c8ca6iK3vA/company-logo_200_200/company-logo_200_200/0/1673349957314?e=2147483647&v=beta&t=xiUSeNbCvMSCHSs7y6BprjbYZS2E20odxwz77gkuDUA",
     description: (
       <>
         <ul>
           <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
+            Developed web applications using React.js and Next.js integrated
+            with REST APIs.
           </li>
           <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
+            Built reusable UI components, improved application performance,
+            and enhanced SEO.
+          </li>
+          <li>
+            Implemented dashboards and HRMS modules using Ant Design.
           </li>
         </ul>
       </>
     ),
   },
   {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+    company: "OYO Corporate Office",
+    designation: "Software Developer",
+    duration: "October 2019 - January 2024",
+    companyImg: "https://images.seeklogo.com/logo-png/44/1/oyo-rooms-logo-png_seeklogo-443633.png",
     description: (
       <>
         <ul>
           <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
+            Developed and maintained REST APIs for mobile and web applications.
           </li>
           <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
+            Debugged and resolved live production issues to ensure system stability.
+          </li>
+          <li>
+            Designed responsive user interfaces using React.js.
           </li>
         </ul>
       </>
     ),
   },
 ];
+
 
 export const projectsData = [
   {
@@ -243,10 +243,59 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Portfolio Website",
     image: "portfolio-website",
-    link: null,
+    link: "https://vikaspanchal.tech",
     source: "https://github.com/vikass01/portfolio",
+  }, 
+  // {
+  //   type: "WEB-APP",
+  //   title: "Pure Source Shop (OrganixHub)",
+  //   image: "organic",
+  //   link: "https://organixhub.com/",
+  //   source: "https://github.com/vikass01/pure-source-shop",
+  // },
+  {
+    type: "WEB-APP",
+    title: "OrganixHub (Vercel)",
+    image: "organic",
+    link: "https://organixhub.vercel.app/",
+    source: "https://github.com/vikass01/pure-source-shop",
+  },
+  // {
+  //   type: "WEB-APP",
+  //   title: "Delicious Diet",
+  //   image: "delicious-diet",
+  //   link: "https://delicious-diet.vercel.app/",
+  //   source: "https://github.com/vikass01/vikass01-delicious_diet",
+  // },
+  {
+    type: "WEB-APP",
+    title: "Golden Ghee Gateway",
+    image: "triomm",
+    link: "https://www.triomm.com/",
+    source: "https://github.com/vikass01/golden-ghee-gateway",
   },
   {
+    type: "WEB-APP",
+    title: "Secure Pay Gateway",
+    image: "payflow",
+    link: "https://secure-pay-gateway.vercel.app/",
+    source: "https://github.com/vikass01/secure-pay-gateway",
+  },
+  {
+    type: "WEB-APP",
+    title: "VP Meet (Video Conferencing)",
+    image: "vp-meet",
+    link: "https://vp-meet.vercel.app/",
+    source: "https://github.com/vikass01/vp-meet",
+  },
+  {
+    type: "WEB-APP",
+    title: "iGlobe Trading UI",
+    image: "iglobe-trading",
+    link: "https://www.iglobetrading.com/",
+    source: "https://github.com/vikass01/initial-ink",
+  },
+   {
     type: "WEB-APP",
     title: "Weather App",
     image: "weather-app",
@@ -262,20 +311,27 @@ export const projectsData = [
   },
   {
     type: "WEB-APP",
-    title: "Mbbs Study Overseas",
-    image: "guess-game",
+    title: "MBBS Study Overseas",
+    image: "mbbs-study-overseas",
     link: "https://mbbsstudyoverseas.com/",
     source: "https://github.com/vikass01/mbbs-study-overseas",
   },
   {
     type: "WEB-APP",
+    title: "Text Utility App",
+    image: "text-utility-app",
+    link: "https://text-utils-beryl-six.vercel.app/",
+    source: "https://github.com/vikass01/text-utils",
+  },
+  {
+    type: "PROJECT",
     title: "Notes App",
     image: "react-notes-app",
     link: "",
     source: "",
   },
   {
-    type: "WEB-APP",
+    type: "PROJECT",
     title: "Dice Multiplayer",
     image: "dice-multiplayer",
     link: "",
@@ -295,14 +351,22 @@ export const projectsData = [
     link: "",
     source: "",
   },
+   {
+    type: "BIG-PROJECT",
+    title: "Volvo Connected Architecture",
+    image: "volvo",
+    link: "https://www.volvogroup.com/en/",
+    source: "",
+  },
   {
-    type: "WEB-APP",
-    title: "Text Utility App",
-    image: "text-utility-app",
-    link: "https://text-utils-beryl-six.vercel.app/",
-    source: "https://github.com/vikass01/text-utils",
+    type: "BIG-PROJECT",
+    title: "V2 Retails Enterprise System",
+    image: "v2-retails",
+    link: "https://v2parivar.v2retail.com:9988/login",
+    source: "",
   },
 ];
+
 
 
 export const socialMediaLinks = [

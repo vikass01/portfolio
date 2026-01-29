@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Vikas Dharra",
+  "author": "Vikas Panchal",
   "license": "ISC",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",

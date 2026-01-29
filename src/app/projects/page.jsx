@@ -22,7 +22,7 @@ const Projects = () => {
         ? projectsData
         : projectsData.filter((data) => data.type === value);
     });
-  const options = ["ALL", "WEB-APP", "PROJECT"];
+  const options = ["ALL", "WEB-APP", "PROJECT", "BIG-PROJECT"];
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "project",
     defaultValue: "ALL",
