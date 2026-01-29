@@ -306,7 +306,7 @@ export const projectsData = [
     type: "WEB-APP",
     title: "World Wide Visa",
     image: "landing-page",
-    link: "https://worldwide-visa.vercel.app/",
+    link: "https://mangalammigrationservices.com/",
     source: "https://github.com/vikass01/world_wide_visa",
   },
   {
