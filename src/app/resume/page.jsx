@@ -119,10 +119,10 @@ const Resume = () => {
     ].forEach((c) => addText("• " + c));
     y += 10;
     // --------------------------
-    addSection("COMPUTER PROFICIENCY");
-    [
-      "Windows, Linux, Photoshop, PageMaker, CorelDRAW, MS Office, Hardware, Typing",
-    ].forEach((item) => addText("• " + item));
+    // addSection("COMPUTER PROFICIENCY");
+    // [
+    //   "Windows, Linux, Photoshop, PageMaker, CorelDRAW, MS Office, Hardware, Typing",
+    // ].forEach((item) => addText("• " + item));
 
     y += 10;
 
@@ -269,7 +269,7 @@ const Resume = () => {
             </ul>
           </div>
 
-          {/* <div style={{ marginTop: '20px' }}>
+          <div style={{ marginTop: '20px' }}>
             <h2 className='txt1' style={{ fontWeight: 'bold', textTransform: 'uppercase', fontSize: '14px', marginBottom: '10px' }}>Computer Proficiency</h2>
             <hr className="colored-divider" />
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', fontSize: '14px' }}>
@@ -282,7 +282,7 @@ const Resume = () => {
               <li className='txt1'> Hardware</li>
               <li className='txt1'> Hindi Typing</li>
             </ul>
-          </div> */}
+          </div>
 
           <div style={{ marginTop: '20px' }}>
             <h2 className='txt1' style={{ fontWeight: 'bold' }}>Languages</h2>
