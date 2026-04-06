@@ -85,9 +85,10 @@ const Resume = () => {
     addText("Vikas Panchal");
     doc.setFontSize(11);
     addText("Greater Noida, U.P - 201306");
-    addText("+91 7838955179");
+    // addText("+91 7838955179");
+    addText("+91 9217725093");
     addText("eng.vikaspanchal91@gmail.com");
-    addText("vikaspanchal.vercel.app");
+    // addText("vikaspanchal.vercel.app");
     y += 10;
 
     // --------------------------
