@@ -269,7 +269,7 @@ const Resume = () => {
             </ul>
           </div>
 
-          <div style={{ marginTop: '20px' }}>
+          {/* <div style={{ marginTop: '20px' }}>
             <h2 className='txt1' style={{ fontWeight: 'bold', textTransform: 'uppercase', fontSize: '14px', marginBottom: '10px' }}>Computer Proficiency</h2>
             <hr className="colored-divider" />
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', fontSize: '14px' }}>
@@ -278,11 +278,11 @@ const Resume = () => {
               <li className='txt1'> PhotoShop</li>
               <li className='txt1'> PageMaker</li>
               <li className='txt1'> CorelDRAW</li>
-              <li className='txt1'> MS Office</li>
+              <li className='txt1'> Indesign</li>
               <li className='txt1'> Hardware</li>
-              <li className='txt1'> Typing</li>
+              <li className='txt1'> Hindi Typing</li>
             </ul>
-          </div>
+          </div> */}
 
           <div style={{ marginTop: '20px' }}>
             <h2 className='txt1' style={{ fontWeight: 'bold' }}>Languages</h2>
