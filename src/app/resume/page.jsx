@@ -84,7 +84,8 @@ const Resume = () => {
     doc.setFont("Helvetica", "bold");
     addText("Vikas Panchal");
     doc.setFontSize(11);
-    addText("Greater Noida, U.P - 201306");
+    // addText("Greater Noida, U.P - 201306");
+    addText("Faridabad, H.R - 121009");
     // addText("+91 7838955179");
     addText("+91 9217725093");
     addText("eng.vikaspanchal91@gmail.com");
