@@ -193,7 +193,8 @@ const Resume = () => {
     // --------------------------
     addSection("ADDRESS");
     addText(
-      "Flat No. 101, Tower E-5, Supertech Eco Village 1, Bisrakh Jalalpur, Greater Noida West, Gautam Buddha Nagar - 201306"
+      // "Flat No. 101, Tower E-5, Supertech Eco Village 1, Bisrakh Jalalpur, Greater Noida West, Gautam Buddha Nagar - 201306"
+      "C-12, Shiv Apartment, Dayal Bagh, Lakkarpur, Surajkund , Faridabad, Haryana - 121009"
     );
     y += 10;
     // --------------------------
