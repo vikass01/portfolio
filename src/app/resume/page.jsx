@@ -105,6 +105,7 @@ const Resume = () => {
       "Bootstrap, Tailwind CSS, Ant Design, Redux",
       "Git, VS Code, Webpack, Vite, Postman, npm",
       "Wix, AppyBuilder, React Native",
+      "Photoshop, PageMaker, CorelDRAW, indesign",
     ].forEach((skill) => addText("• " + skill));
     y += 10;
     // --------------------------
@@ -144,7 +145,8 @@ const Resume = () => {
     addText("October 2019 – January 2024");
     addText("• Developed REST APIs for mobile applications to enhance functionality and performance.");
     addText("• Debugged and resolved errors efficiently in live projects.");
-    addText("• Designed responsive front-end interfaces using React.js.");
+    addText("• Designed responsive front-end interfaces using React.js.");addText("• Designed responsive front-end interfaces using React.js.");
+    addText("• Designed web and mobile pages using CorelDRAW, Photoshop, PageMaker, and InDesign for website hero banner and content.");
 
     // --------------------------
     addSection("EDUCATION");
