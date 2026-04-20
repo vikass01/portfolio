@@ -84,12 +84,12 @@ const Resume = () => {
     doc.setFont("Helvetica", "bold");
     addText("Vikas Panchal");
     doc.setFontSize(11);
-    // addText("Greater Noida, U.P - 201306");
-    addText("Faridabad, H.R - 121009");
+    addText("Greater Noida, U.P - 201306");
+    //addText("Faridabad, H.R - 121009");
     // addText("+91 7838955179");
-    addText("+91 9217725093");
+    addText("+91 7838955179");
     addText("eng.vikaspanchal91@gmail.com");
-    // addText("vikaspanchal.vercel.app");
+    addText("vikaspanchal.vercel.app");
     y += 10;
 
     // --------------------------
@@ -195,8 +195,8 @@ const Resume = () => {
     // --------------------------
     addSection("ADDRESS");
     addText(
-      // "Flat No. 101, Tower E-5, Supertech Eco Village 1, Bisrakh Jalalpur, Greater Noida West, Gautam Buddha Nagar - 201306"
-      "C-12, Shiv Apartment, Dayal Bagh, Lakkarpur, Surajkund , Faridabad, Haryana - 121009"
+      "Flat No. 101, Tower E-5, Supertech Eco Village 1, Bisrakh Jalalpur, Greater Noida West, Gautam Buddha Nagar - 201306"
+      //"C-12, Shiv Apartment, Dayal Bagh, Lakkarpur, Surajkund , Faridabad, Haryana - 121009"
     );
     y += 10;
     // --------------------------
